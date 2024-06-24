@@ -1,4 +1,4 @@
 package com.ps.dealership_api_starter.controllers;
 
-public class MySqlSalesContractDao {
+public class SalesContractController {
 }
