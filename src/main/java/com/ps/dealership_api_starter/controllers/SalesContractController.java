@@ -12,7 +12,7 @@ import org.springframework.web.server.ResponseStatusException;
 @CrossOrigin
 public class SalesContractController {
 
-    private final SalesContractDao salesContractDao;
+    private SalesContractDao salesContractDao;
 
     @Autowired
     public SalesContractController(SalesContractDao salesContractDao) {
